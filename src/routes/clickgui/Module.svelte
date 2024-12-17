@@ -128,7 +128,7 @@
 </div>
 
 <style lang="scss">
-  @import "../../colors.scss";
+  @use "../../colors.scss" as *;
 
   .module {
     position: relative;

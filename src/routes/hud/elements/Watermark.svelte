@@ -75,7 +75,7 @@
 </div>
 
 <style lang="scss">
-  @import "../../../colors.scss";
+  @use "../../../colors.scss" as *;
 
   @keyframes pulsing {
     0% {

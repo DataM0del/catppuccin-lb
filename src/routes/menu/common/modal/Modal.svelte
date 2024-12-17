@@ -63,7 +63,7 @@
 {/if}
 
 <style lang="scss">
-  @import "../../../../colors";
+  @use "../../../../colors" as *;
 
   .modal-wrapper {
     position: fixed;

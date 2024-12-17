@@ -10,7 +10,7 @@
   /*
     Taken from https://loading.io/css/
    */
-  @import "../../../colors";
+  @use "../../../colors.scss" as *;
   .loader-wrapper {
     position: absolute;
     top: 50%;

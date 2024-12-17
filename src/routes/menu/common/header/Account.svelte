@@ -47,7 +47,7 @@
 </div>
 
 <style lang="scss">
-  @import "../../../../colors";
+  @use "../../../../colors" as *;
 
   .account {
     background-color: rgba($hotbar-base-color, 0.68);

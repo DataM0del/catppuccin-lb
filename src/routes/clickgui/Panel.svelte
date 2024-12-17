@@ -220,7 +220,7 @@
 </div>
 
 <style lang="scss">
-  @import "../../colors.scss";
+  @use "../../colors.scss" as *;
 
   .panel {
     border-radius: 16px;

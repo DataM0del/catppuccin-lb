@@ -27,7 +27,7 @@
 </div>
 
 <style lang="scss">
-@import "../../../../colors.scss";
+@use "../../../../colors.scss" as *;
 
 .main-button {
   background-color: rgba($base, 0.9);

@@ -3,7 +3,7 @@
 </div>
 
 <style lang="scss">
-    @import "../../../../colors";
+    @use "../../../../colors" as *;
 
     .option-bar {
       background-color: rgba($base, 0.68);

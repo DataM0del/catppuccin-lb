@@ -43,7 +43,7 @@
 </div>
 
 <style lang="scss">
-  @import "../../../../colors";
+  @use "../../../../colors.scss" as *;
 
   .menu-list {
     background-color: rgba($base, 0.9);
